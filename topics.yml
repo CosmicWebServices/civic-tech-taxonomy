@@ -14,6 +14,9 @@ gis:
   related:
     - mapping
 health:
+abc:
+  * no
+  ndiunfiene
 mapping:
   aliases:
     - maps
@@ -22,3 +25,4 @@ mapping:
     - gis
 transportation:
 voting:
+$random
