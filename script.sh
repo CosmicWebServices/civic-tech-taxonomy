@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/sh -ex
 echo "welp at least it starts"
 FILES=*.yml
 gem install yaml-lint
@@ -15,9 +15,9 @@ for f in $FILES
       exit 0
     else
       echo "Build Failed."
-      exit 1
+      false
     fi
   done
 
 echo "Build Failed."
-exit 1 #For some reason Script did not work at all. What a shame.
+false #For some reason Script did not work at all. What a shame.
