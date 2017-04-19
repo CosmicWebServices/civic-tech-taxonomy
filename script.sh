@@ -1,4 +1,5 @@
 #!/bin/sh -ex
+false #Force error?
 echo "welp at least it starts"
 FILES=*.yml
 gem install yaml-lint
